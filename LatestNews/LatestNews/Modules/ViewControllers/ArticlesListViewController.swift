@@ -8,6 +8,7 @@
 import UIKit
 import Combine
 import SafariServices
+import MBProgressHUD
 
 class ArticlesListViewController: UIViewController {
 
@@ -19,17 +20,23 @@ class ArticlesListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         bindData()
-        viewModel.fetchLastWeekNews()
+        fetchData()
         title = "Most Viewed Articles"
     }
 
     private func bindData(){
         viewModel.$articlesInfo
             .receive(on: DispatchQueue.main).sink {[unowned self] (articles) in
+                MBProgressHUD.hide(for: view, animated: true)
                 self.articlesTableView.reloadData()
             }.store(in: &disposeBag)
     }
-
+    
+    private func fetchData(){
+        MBProgressHUD.showAdded(to: view, animated: true)
+        viewModel.fetchLastWeekNews()
+    }
+    
 }
 
 extension ArticlesListViewController: UITableViewDataSource {

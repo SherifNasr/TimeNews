@@ -3,5 +3,6 @@ target 'LatestNews' do
   use_frameworks!
 
   pod 'Moya'
+  pod 'MBProgressHUD'
 
 end
