@@ -43,4 +43,9 @@ class ArticlesListViewModel: ObservableObject {
         return article.publishedDate
     }
     
+    func articleURL(at index: Int) -> URL? {
+        guard let article = article(at: index) else {return nil}
+        return URL(string:  article.url)
+    }
+    
 }

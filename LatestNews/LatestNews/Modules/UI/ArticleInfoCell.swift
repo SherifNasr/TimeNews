@@ -15,9 +15,9 @@ class ArticleInfoCell: UITableViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
+        selectionStyle = .none
         containerView.layer.cornerRadius = 15
-        containerView.clipsToBounds = true
-        containerView.backgroundColor = #colorLiteral(red: 0.9450980392, green: 0.9450980392, blue: 0.9450980392, alpha: 1)
+        containerView.backgroundColor = .cellBg
     }
 }
 

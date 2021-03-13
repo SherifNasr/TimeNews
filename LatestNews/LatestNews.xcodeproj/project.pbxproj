@@ -23,6 +23,7 @@
 		4931621E25FBBC9900EA0E6F /* ArticleInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931621D25FBBC9900EA0E6F /* ArticleInfoModel.swift */; };
 		4931622225FBE71300EA0E6F /* ArticleInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931622125FBE71300EA0E6F /* ArticleInfoCell.swift */; };
 		4931622725FC169F00EA0E6F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931622625FC169F00EA0E6F /* UIViewExtension.swift */; };
+		4947DCA225FC2DFC0023367E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4947DCA125FC2DFC0023367E /* UIColorExtension.swift */; };
 		BEDFF389926C26874016A66A /* Pods_LatestNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3641D478B9DDD39274F66D7F /* Pods_LatestNews.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		4931621D25FBBC9900EA0E6F /* ArticleInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleInfoModel.swift; sourceTree = "<group>"; };
 		4931622125FBE71300EA0E6F /* ArticleInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleInfoCell.swift; sourceTree = "<group>"; };
 		4931622625FC169F00EA0E6F /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		4947DCA125FC2DFC0023367E /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		9E5EA18FFC522FC288C20ACF /* Pods-LatestNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LatestNews.debug.xcconfig"; path = "Target Support Files/Pods-LatestNews/Pods-LatestNews.debug.xcconfig"; sourceTree = "<group>"; };
 		B8AEB03F5298342E43564A07 /* Pods-LatestNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LatestNews.release.xcconfig"; path = "Target Support Files/Pods-LatestNews/Pods-LatestNews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,9 +173,18 @@
 			isa = PBXGroup;
 			children = (
 				4931620025FBAD1E00EA0E6F /* Network Layer */,
-				4931622625FC169F00EA0E6F /* UIViewExtension.swift */,
+				4947DC9F25FC2DEA0023367E /* Extensions */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		4947DC9F25FC2DEA0023367E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4931622625FC169F00EA0E6F /* UIViewExtension.swift */,
+				4947DCA125FC2DFC0023367E /* UIColorExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		FA3894921DB48C8465211573 /* Pods */ = {
@@ -196,7 +207,7 @@
 				493161D725FBA4E200EA0E6F /* Sources */,
 				493161D825FBA4E200EA0E6F /* Frameworks */,
 				493161D925FBA4E200EA0E6F /* Resources */,
-				70E643C2380D0A92604F586E /* [CP] Embed Pods Frameworks */,
+				776B6915936FE7634A227863 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,7 +286,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		70E643C2380D0A92604F586E /* [CP] Embed Pods Frameworks */ = {
+		776B6915936FE7634A227863 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4931622225FBE71300EA0E6F /* ArticleInfoCell.swift in Sources */,
+				4947DCA225FC2DFC0023367E /* UIColorExtension.swift in Sources */,
 				4931620325FBB04300EA0E6F /* NetworkConstants.swift in Sources */,
 				493161E325FBA4E200EA0E6F /* ArticlesListViewController.swift in Sources */,
 				493161DF25FBA4E200EA0E6F /* AppDelegate.swift in Sources */,

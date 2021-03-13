@@ -7,6 +7,7 @@
 
 import UIKit
 import Combine
+import SafariServices
 
 class ArticlesListViewController: UIViewController {
 
@@ -19,12 +20,13 @@ class ArticlesListViewController: UIViewController {
         super.viewDidLoad()
         bindData()
         viewModel.fetchLastWeekNews()
+        title = "Most Viewed Articles"
     }
 
     private func bindData(){
         viewModel.$articlesInfo
             .receive(on: DispatchQueue.main).sink {[unowned self] (articles) in
-                articlesTableView.reloadData()
+                self.articlesTableView.reloadData()
             }.store(in: &disposeBag)
     }
 
@@ -45,7 +47,18 @@ extension ArticlesListViewController: UITableViewDataSource {
 }
 
 extension ArticlesListViewController: UITableViewDelegate {
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        guard let url = viewModel.articleURL(at: indexPath.row) else {return}
+        let safariVC = SFSafariViewController(url: url)
+        safariVC.delegate = self
+        present(safariVC, animated: true, completion: nil)
+    }
+    
+}
+
+extension ArticlesListViewController: SFSafariViewControllerDelegate {
+    func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
+        controller.dismiss(animated: true, completion: nil)
     }
 }
