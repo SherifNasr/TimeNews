@@ -88,3 +88,94 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+LatestNews/Pods/Manifest.lock
+LatestNews/Pods/Alamofire/LICENSE
+LatestNews/Pods/Alamofire/README.md
+LatestNews/Pods/Alamofire/Source/AFError.swift
+LatestNews/Pods/Alamofire/Source/Alamofire.swift
+LatestNews/Pods/Alamofire/Source/AlamofireExtended.swift
+LatestNews/Pods/Alamofire/Source/AuthenticationInterceptor.swift
+LatestNews/Pods/Alamofire/Source/CachedResponseHandler.swift
+LatestNews/Pods/Alamofire/Source/Combine.swift
+LatestNews/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+LatestNews/Pods/Alamofire/Source/EventMonitor.swift
+LatestNews/Pods/Alamofire/Source/HTTPHeaders.swift
+LatestNews/Pods/Alamofire/Source/HTTPMethod.swift
+LatestNews/Pods/Alamofire/Source/MultipartFormData.swift
+LatestNews/Pods/Alamofire/Source/MultipartUpload.swift
+LatestNews/Pods/Alamofire/Source/NetworkReachabilityManager.swift
+LatestNews/Pods/Alamofire/Source/Notifications.swift
+LatestNews/Pods/Alamofire/Source/OperationQueue+Alamofire.swift
+LatestNews/Pods/Alamofire/Source/ParameterEncoder.swift
+LatestNews/Pods/Alamofire/Source/ParameterEncoding.swift
+LatestNews/Pods/Alamofire/Source/Protected.swift
+LatestNews/Pods/Alamofire/Source/RedirectHandler.swift
+LatestNews/Pods/Alamofire/Source/Request.swift
+LatestNews/Pods/Alamofire/Source/RequestInterceptor.swift
+LatestNews/Pods/Alamofire/Source/RequestTaskMap.swift
+LatestNews/Pods/Alamofire/Source/Response.swift
+LatestNews/Pods/Alamofire/Source/ResponseSerialization.swift
+LatestNews/Pods/Alamofire/Source/Result+Alamofire.swift
+LatestNews/Pods/Alamofire/Source/RetryPolicy.swift
+LatestNews/Pods/Alamofire/Source/ServerTrustEvaluation.swift
+LatestNews/Pods/Alamofire/Source/Session.swift
+LatestNews/Pods/Alamofire/Source/SessionDelegate.swift
+LatestNews/Pods/Alamofire/Source/StringEncoding+Alamofire.swift
+LatestNews/Pods/Alamofire/Source/URLConvertible+URLRequestConvertible.swift
+LatestNews/Pods/Alamofire/Source/URLEncodedFormEncoder.swift
+LatestNews/Pods/Alamofire/Source/URLRequest+Alamofire.swift
+LatestNews/Pods/Alamofire/Source/URLSessionConfiguration+Alamofire.swift
+LatestNews/Pods/Alamofire/Source/Validation.swift
+LatestNews/Pods/Moya/License.md
+LatestNews/Pods/Moya/Readme.md
+LatestNews/Pods/Moya/Sources/Moya/AnyEncodable.swift
+LatestNews/Pods/Moya/Sources/Moya/Cancellable.swift
+LatestNews/Pods/Moya/Sources/Moya/Endpoint.swift
+LatestNews/Pods/Moya/Sources/Moya/Image.swift
+LatestNews/Pods/Moya/Sources/Moya/Moya+Alamofire.swift
+LatestNews/Pods/Moya/Sources/Moya/MoyaError.swift
+LatestNews/Pods/Moya/Sources/Moya/MoyaProvider+Defaults.swift
+LatestNews/Pods/Moya/Sources/Moya/MoyaProvider+Internal.swift
+LatestNews/Pods/Moya/Sources/Moya/MoyaProvider.swift
+LatestNews/Pods/Moya/Sources/Moya/MultipartFormData.swift
+LatestNews/Pods/Moya/Sources/Moya/MultiTarget.swift
+LatestNews/Pods/Moya/Sources/Moya/Plugin.swift
+LatestNews/Pods/Moya/Sources/Moya/RequestTypeWrapper.swift
+LatestNews/Pods/Moya/Sources/Moya/Response.swift
+LatestNews/Pods/Moya/Sources/Moya/TargetType.swift
+LatestNews/Pods/Moya/Sources/Moya/Task.swift
+LatestNews/Pods/Moya/Sources/Moya/URL+Moya.swift
+LatestNews/Pods/Moya/Sources/Moya/URLRequest+Encoding.swift
+LatestNews/Pods/Moya/Sources/Moya/ValidationType.swift
+LatestNews/Pods/Moya/Sources/Moya/Plugins/AccessTokenPlugin.swift
+LatestNews/Pods/Moya/Sources/Moya/Plugins/CredentialsPlugin.swift
+LatestNews/Pods/Moya/Sources/Moya/Plugins/NetworkActivityPlugin.swift
+LatestNews/Pods/Moya/Sources/Moya/Plugins/NetworkLoggerPlugin.swift
+LatestNews/Pods/Pods.xcodeproj/project.pbxproj
+LatestNews/Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+LatestNews/Pods/Target Support Files/Alamofire/Alamofire-Info.plist
+LatestNews/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+LatestNews/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+LatestNews/Pods/Target Support Files/Alamofire/Alamofire.debug.xcconfig
+LatestNews/Pods/Target Support Files/Alamofire/Alamofire.modulemap
+LatestNews/Pods/Target Support Files/Alamofire/Alamofire.release.xcconfig
+LatestNews/Pods/Target Support Files/Moya/Moya-dummy.m
+LatestNews/Pods/Target Support Files/Moya/Moya-Info.plist
+LatestNews/Pods/Target Support Files/Moya/Moya-prefix.pch
+LatestNews/Pods/Target Support Files/Moya/Moya-umbrella.h
+LatestNews/Pods/Target Support Files/Moya/Moya.debug.xcconfig
+LatestNews/Pods/Target Support Files/Moya/Moya.modulemap
+LatestNews/Pods/Target Support Files/Moya/Moya.release.xcconfig
+LatestNews/Pods/Target Support Files/Pods-LatestNews/Pods-LatestNews-acknowledgements.markdown
+LatestNews/Pods/Target Support Files/Pods-LatestNews/Pods-LatestNews-acknowledgements.plist
+LatestNews/Pods/Target Support Files/Pods-LatestNews/Pods-LatestNews-dummy.m
+LatestNews/Pods/Target Support Files/Pods-LatestNews/Pods-LatestNews-frameworks-Debug-input-files.xcfilelist
+LatestNews/Pods/Target Support Files/Pods-LatestNews/Pods-LatestNews-frameworks-Debug-output-files.xcfilelist
+LatestNews/Pods/Target Support Files/Pods-LatestNews/Pods-LatestNews-frameworks-Release-input-files.xcfilelist
+LatestNews/Pods/Target Support Files/Pods-LatestNews/Pods-LatestNews-frameworks-Release-output-files.xcfilelist
+LatestNews/Pods/Target Support Files/Pods-LatestNews/Pods-LatestNews-frameworks.sh
+LatestNews/Pods/Target Support Files/Pods-LatestNews/Pods-LatestNews-Info.plist
+LatestNews/Pods/Target Support Files/Pods-LatestNews/Pods-LatestNews-umbrella.h
+LatestNews/Pods/Target Support Files/Pods-LatestNews/Pods-LatestNews.debug.xcconfig
+LatestNews/Pods/Target Support Files/Pods-LatestNews/Pods-LatestNews.modulemap
+LatestNews/Pods/Target Support Files/Pods-LatestNews/Pods-LatestNews.release.xcconfig
