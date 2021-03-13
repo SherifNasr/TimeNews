@@ -5,22 +5,30 @@ PODS:
     - Moya/Core (= 14.0.0)
   - Moya/Core (14.0.0):
     - Alamofire (~> 5.0)
+  - Nimble (9.0.0)
+  - Quick (3.1.2)
 
 DEPENDENCIES:
   - MBProgressHUD
   - Moya
+  - Nimble
+  - Quick
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - MBProgressHUD
     - Moya
+    - Nimble
+    - Quick
 
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Nimble: 3b4ec3fd40f1dc178058e0981107721c615643d8
+  Quick: 60f0ea3b8e0cfc0df3259a5c06a238ad8b3c46e0
 
-PODFILE CHECKSUM: 0161e2f66827e3ee2b8b2ce056620101e68632da
+PODFILE CHECKSUM: 119a400d9324db9de9f0820e0b0722100cafb45a
 
 COCOAPODS: 1.10.0
