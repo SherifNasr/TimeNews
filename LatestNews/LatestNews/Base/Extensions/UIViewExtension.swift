@@ -8,6 +8,9 @@
 import UIKit
 
 extension UIView {
+    /**
+     adding shadow to view 
+     */
     func addShadow(){
         layer.shadowColor = .init(red: 0, green: 0, blue: 0, alpha: 16)
         layer.shadowOpacity = 1
