@@ -9,7 +9,7 @@ import UIKit
 
 extension UIView {
     /**
-     new kalam gggggg
+     new kalam gggggg  Ramadaaaan
      */
     func addShadow(){
         layer.shadowColor = .init(red: 0, green: 0, blue: 0, alpha: 16)
